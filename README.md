@@ -11,11 +11,11 @@ Discord automatically embeds YouTube links.
 
 Because there is sensitive information in the botsettings.json folder, I've added a botsettings(example).json file to show how I have mine set up. Be sure that you create a botsettings.json with the appropriate token and key filled in so that your bot.js file can retrieve it properly. Instructions on how to get a Discord bot token and YouTube API Key are detailed below.
 
-**Setup Instructions**
+***Setup Instructions***
 
-Install node.js (https://nodejs.org/en/download/)
+*Install node.js (https://nodejs.org/en/download/)*
 
-Set up your Discord Bot
+*Set up your Discord Bot*
 
 1. Go to Discord's Developer portal (https://discordapp.com/developers/)
     
@@ -31,7 +31,7 @@ Set up your Discord Bot
    
 7. Click on "click to reveal" your bot's token
 
-Obtain your YouTube API Key (You will need a Gmail account for this)
+*Obtain your YouTube API Key (You will need a Gmail account for this)*
 
 1. Go to the Google Developers Console (https://console.developers.google.com/)
     
@@ -45,9 +45,9 @@ Obtain your YouTube API Key (You will need a Gmail account for this)
 
 6. Fill in "Web server (eg. node.js, Tomcat)" and select "Public data" for the empty fields and get your credentials
 
-Clone **eris** from this repository
+*Clone **eris** from this repository*
 
-Configure botsettings.json
+*Configure botsettings.json*
 
 1. Take the Discord bot token and paste it into the botsettings(example).json file
 
@@ -55,7 +55,7 @@ Configure botsettings.json
    
 3. Rename the botsettings(example).json file to botsettings.json
   
-Authorize the bot on your Discord server
+*Authorize the bot on your Discord server*
 
 1. Go into bot.js and uncomment the block of code that is commented out
     
