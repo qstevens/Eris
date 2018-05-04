@@ -19,7 +19,7 @@ Install node.js (https://nodejs.org/en/download/)
 
 ### Setting Up
 
-Set up your Discord Bot
+**Set up your Discord Bot
 
 1. Go to Discord's Developer portal (https://discordapp.com/developers/)
 
