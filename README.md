@@ -5,7 +5,7 @@ Provides a 'feeling lucky' search result in response to !yt commands followed by
 
 Very simple program made with Discord.js following Part 1 of Threebow's tutorial on YouTube (https://www.youtube.com/watch?v=024upsEuHaU). I got lost around the part he made the .bat file because I was coding on Ubuntu Linux 18.04. Made a .sh file instead to run the same script (see start.sh).
 
-I was also having trouble with Google's YouTube API so instead used youtube-search from the npm packages (https://www.npmjs.com/package/youtube-search/v/1.1.0). Pretty simple copy and paste to set up the search query. Took the JSONObject from 'results' (see bot.js) and retrieved the URL of the first YouTube search result and had my bot paste it in text chat.
+I was also having trouble with Google's YouTube API so instead used youtube-search by maxgfeller (https://www.npmjs.com/~maxgfeller) from the npm packages (https://www.npmjs.com/package/youtube-search/v/1.1.0). Pretty simple copy and paste to set up the search query. Took the JSONObject from 'results' (see bot.js) and retrieved the URL of the first YouTube search result and had my bot paste it in text chat.
 
 Discord automatically embeds YouTube links.
 
@@ -72,3 +72,11 @@ Your bot has now been added to your Discord server!
 ## Testing
 
 Test your bot by typing "!yt all naruto openings" into a channel your bot has access to and enjoy the nostalgia!
+
+## Authors
+
+* **Stevens Qiu** (https://github.com/qstevens)
+
+## Acknowledgments
+
+* Matthew De Guzman for wanting to make a Discord Bot
