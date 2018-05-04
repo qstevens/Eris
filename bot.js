@@ -7,6 +7,13 @@ const bot = new Discord.Client({disableEveryone: true})
 bot.on("ready", async () => {
   console.log(`Bot is ready! ${bot.user.username}`);
 
+  // try {
+  //   let link = await bot.generateInvite(["ADMINISTRATOR"]);
+  //   console.log(link);
+  // } catch(e) {
+  //   console.log(e.stack);
+  // }
+
   try {
     let link = await bot.generateInvite(["ADMINISTRATOR"]);
   } catch(e) {
