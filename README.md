@@ -31,6 +31,8 @@ Because there is sensitive information in the botsettings.json folder, I've adde
    
 7. Click on "click to reveal" your bot's token
 
+Congratulations, you now have your bot token! (Save this for later)
+
 *Obtain your YouTube API Key (You will need a Gmail account for this)*
 
 1. Go to the Google Developers Console (https://console.developers.google.com/)
@@ -45,15 +47,17 @@ Because there is sensitive information in the botsettings.json folder, I've adde
 
 6. Fill in "Web server (eg. node.js, Tomcat)" and select "Public data" for the empty fields and get your credentials
 
+Congratulations, you now have your YouTube API Key! (Save this, too)
+
 *Clone **eris** from this repository*
 
 *Configure botsettings.json*
 
 1. Take the Discord bot token and paste it into the botsettings(example).json file
 
-2. Do the same with your API key
+2. Do the same with your YouTube API key
    
-3. Rename the botsettings(example).json file to botsettings.json
+3. Rename the botsettings(example).json file to simply botsettings.json
   
 *Authorize the bot on your Discord server*
 
