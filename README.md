@@ -9,7 +9,7 @@ I was also having trouble with Google's YouTube API so instead used youtube-sear
 
 Discord automatically embeds YouTube links.
 
-**Note about botsettings.json
+**Note about botsettings.json**
 
 Because there is sensitive information in the botsettings.json folder, I've added a botsettings(example).json file to show how I have mine set up. Be sure that you create a botsettings.json with the appropriate token and key filled in so that your bot.js file can retrieve it properly. Instructions on how to get a Discord bot token and YouTube API Key are detailed below.
 
