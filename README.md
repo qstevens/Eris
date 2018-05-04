@@ -79,4 +79,4 @@ Test your bot by typing "!yt all naruto openings" into a channel your bot has ac
 
 ## Acknowledgments
 
-* Matthew De Guzman for wanting to make a Discord Bot
+* Matthew DeGuzman for wanting to make a Discord Bot
