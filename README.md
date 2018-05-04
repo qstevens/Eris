@@ -1,7 +1,9 @@
 # Eris
-Provides a 'feeling lucky' search result in response to !yt commands followed by a search query in Discord.
+Provides a 'feeling lucky' search result in response to !yt and !s commands followed by a search query in Discord.
 
 ## Getting Started
+
+Use this bot in your Discord channel and by prefacing with !yt the bot will send you the first YouTube search result. Prefacing with !s will get you the first Google search result.
 
 Very simple program made with Discord.js following Part 1 of Threebow's tutorial on YouTube (https://www.youtube.com/watch?v=024upsEuHaU). I got lost around the part he made the .bat file because I was coding on Ubuntu Linux 18.04. Made a .sh file instead to run the same script (see start.sh).
 
