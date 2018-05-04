@@ -1,6 +1,7 @@
 const botSettings = require("./botsettings.json");
 const Discord = require("discord.js");
 const prefix = botSettings.prefix;
+const APIkey = botSettings.APIkey;
 
 const bot = new Discord.Client({disableEveryone: true})
 
@@ -26,25 +27,40 @@ bot.on("message", async message => {
 
   if(!command.startsWith(prefix)) return;
 
-  if(command === `${prefix}yt`) {
-    let embed = new Discord.RichEmbed();
+  let keyword = command.substring(1);
 
-    var search = require('youtube-search');
+  switch (keyword) {
 
-    var opts = {
-      maxResults: 1,
-      key: botSettings.APIkey
-    };
+    case "yt":
+      var search = require('youtube-search');
 
-    search(query, opts, function(err, results) {
-      if(err) return console.log(err);
+      var opts = {
+        maxResults: 1,
+        key: APIkey
+      };
 
-      var newJSON = results[0];
+      search(query, opts, function(err, results) {
+        if(err) return console.log(err);
 
-      embed.setURL(newJSON.link);
+        message.channel.send(results[0].link);
+      });
+      break;
 
-      message.channel.send(newJSON.link);
-    });
+    case "s":
+      var getJSON = require('get-json')
+
+      var url = "https://www.googleapis.com/customsearch/v1?q=" +
+      `${query}&` +
+      "cx=013360514782494321695%3Arq8lq0intr8&" +
+      "num=1&" +
+      `key=${APIkey}`
+
+      getJSON(url, function(error, response){
+        if(error) return console.log(error);
+
+        message.channel.send(response.items[0].link);
+      })
+      break;
   }
 });
 
