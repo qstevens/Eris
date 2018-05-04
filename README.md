@@ -49,7 +49,7 @@ Congratulations, you now have your bot token! (Save this for later)
 
 Congratulations, you now have your YouTube API Key! (Save this, too)
 
-Clone **eris** from this repository*
+*Clone **eris** from this repository*
 
 *Configure botsettings.json*
 
