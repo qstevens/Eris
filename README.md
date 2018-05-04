@@ -67,4 +67,4 @@ Because there is sensitive information in the botsettings.json folder, I've adde
 
 5. Go back into bot.js to re-comment out the code in step i) and re-run ./start.sh
     
-Test your bot by typing "!yt all naruto openings" into a channel your bot has authorization to and enjoy the nostalgia!
+*Test your bot by typing "!yt all naruto openings" into a channel your bot has authorization to and enjoy the nostalgia!*
