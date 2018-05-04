@@ -9,7 +9,7 @@ bot.on("ready", async () => {
 
   try {
     let link = await bot.generateInvite(["ADMINISTRATOR"]);
-    // console.log(link);
+    console.log(link);
   } catch(e) {
     console.log(e.stack);
   }

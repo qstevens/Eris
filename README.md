@@ -49,7 +49,7 @@ Congratulations, you now have your bot token! (Save this for later)
 
 Congratulations, you now have your YouTube API Key! (Save this, too)
 
-*Clone **eris** from this repository*
+Clone **eris** from this repository*
 
 *Configure botsettings.json*
 
@@ -61,14 +61,12 @@ Congratulations, you now have your YouTube API Key! (Save this, too)
 
 *Authorize the bot on your Discord server*
 
-1. Go into bot.js and uncomment the line of code that is commented out
-
-2. Save the file, and from your terminal go into the **eris** directory and type ./start.sh
+1. From your terminal go into the **eris** directory and type ./start.sh to run the script
 
 3. You should see a Discord link show up, copy this and paste it into your browser
 
 4. Follow the prompts and authorize your bot to the server of your choice
 
-5. Go back into bot.js to re-comment out the code in step 1 and re-run ./start.sh
+Your bot has now been added to your Discord server!
 
 *Test your bot by typing "!yt all naruto openings" into a channel your bot has authorization to and enjoy the nostalgia!*
