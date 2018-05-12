@@ -59,6 +59,13 @@ bot.on("message", async message => {
 
   switch (keyword) {
 
+    case "help":
+      message.channel.send("Commands:\n" +
+      "!yt <YouTube Search Query>\n" +
+      "!s <Google Search Query>" +
+      "\n!plan <Event Name> <Month> <Day> <Hour>:<Minute> <AM/PM>");
+      break;
+
     case "yt":
       var search = require('youtube-search');
 
