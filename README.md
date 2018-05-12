@@ -1,5 +1,7 @@
 # Eris
 Provides a 'feeling lucky' search result in response to !yt and !s commands followed by a search query in Discord.
+!plan command allows you to set reminders for your planned events with your friends!
+Use !help to see the list of commands and the format with which you use them.
 
 ## Getting Started
 
