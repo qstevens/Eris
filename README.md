@@ -1,5 +1,5 @@
 # Eris
-Provides a 'feeling lucky' search result in response to !yt and !s commands followed by a search query in Discord.
+Provides a 'feeling lucky' search result in response to "!s" and "!yt" commands.
 !plan command allows you to set reminders for your planned events with your friends!
 Use !help to see the list of commands and the format with which you use them.
 
@@ -11,7 +11,9 @@ Very simple program made with Discord.js following Part 1 of Threebow's tutorial
 
 I was also having trouble with Google's YouTube API so instead used youtube-search by maxgfeller (https://www.npmjs.com/~maxgfeller) from the npm packages (https://www.npmjs.com/package/youtube-search/v/1.1.0). Pretty simple copy and paste to set up the search query. Took the JSONObject from 'results' (see bot.js) and retrieved the URL of the first YouTube search result and had my bot paste it in text chat.
 
-Discord automatically embeds YouTube links.
+Similarly for the Google search, I used another API from npm. Searches are general Google searches with no filter returning the very first result. May implement additional search engine for NSFW-free searches in non-NSFW channels.
+
+Discord automatically embeds many kinds of links including those to YouTube videos. 
 
 **Note about botsettings.json**
 
